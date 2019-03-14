@@ -1,24 +1,24 @@
 <meta name='keywords' content='tvOS, menu, menubar, menu-bar, custom, customization, customized, custom menu, custom menubar'>
 
-#PLMenuBar 
+# PLMenuBar 
 
 PLMenuBar is a customized menubar for tvOS, simple and easy to use.
 
-####Preview
+#### Preview
 
 ![preview](http://i.imgur.com/i5WkB1s.gif)
 
-####Requirement 
+#### Requirement 
 
  - XCode 7.3
 
-####Support
+#### Support
 
  - Support desc detail view
  - Support combo detail view
  - Magic
 
-####Delegate
+#### Delegate
 
 ```swift
 @objc public protocol PLMenuBarDelegate: NSObjectProtocol {
@@ -36,7 +36,7 @@ PLMenuBar is a customized menubar for tvOS, simple and easy to use.
 }
 ```
 
-####Usage
+#### Usage
 
 ```swift
 self.menuDetailItems = [
